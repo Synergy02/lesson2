@@ -1,0 +1,14 @@
+{
+  "name": "lesson2---install",
+  "version": "1.0.0",
+  "description": "/**  * Установка локально как Dev Dependency (запуск как npx tsc)  *  * Установка глобально (запуск как tsc)  *  * Рассмотрим справку по компилятору npx tsc --help  */ /**  *  * Напишем 1ю функцию  */ function greetings(name) {     var _a;     var newElement = document.createElement('h2');     newElement.innerHTML = \"Hello, \".concat(name);     (_a = document.querySelector('.content')) === null || _a === void 0 ? void 0 : _a.append(newElement); } greetings('Sergey'); /**  * TS-файл необходимо скомпилировать в JS и подключить готовый JS в HTML-документ  *  * ``npx tsc ./lesson2/script.ts ``  *  * или скомпилировать с другим именем выходного файла tsc ./lesson2/script.ts --outfile my-super-script.js",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
